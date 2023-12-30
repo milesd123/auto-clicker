@@ -109,15 +109,23 @@ int main()
     random_device rd;
     mt19937 r(rd());
 
-
+    int left_delay;
+    int numerator = randomize ? (r() % (475 + 1 - (475 - 25)) + (475 - 25)) : 520;
+    int deviation = randomize ? 3 : 0;
    
+
+    left_cps = (left_cps / 3) -1 ;
         // Autoclick
         while (true)
         {
-            // Delay Function (Randomizer)
-            int left_delay = (2000 / left_cps) / 1;
 
-
+            randomize = true;
+            // Delay Function (Randomizer) if random number divided by 100 is less than 5
+           
+               left_delay = (numerator / left_cps);
+          
+             //left_delay =  (numerator / (left_cps - deviation + r() % ((deviation * 2) + 1)));
+ 
             if (left_clicker_toggled)
             {
                 if (breakblocks == false)
