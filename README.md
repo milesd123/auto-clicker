@@ -1,26 +1,5 @@
 # Hottie Clicker
 
-This guide demonstrates various ways to style text in Markdown. Perfect for README files, documentation, and notes!
+A simple external autoclicker for minecraft 1.8.9 that uses randomization from sapphire lite. 
 
 ---
-
-## 🔤 Basic Text Styles
-
-- **Bold**: `**Bold**` → **Bold**
-- *Italic*: `*Italic*` → *Italic*
-- ***Bold & Italic***: `***Bold & Italic***` → ***Bold & Italic***
-- ~~Strikethrough~~: `~~Strikethrough~~` → ~~Strikethrough~~
-
----
-
-## 🧾 Headers
-
-Use `#` through `######` to create headers of different sizes.
-
-```md
-# H1 - Big Header
-## H2 - Medium Header
-### H3 - Small Header
-#### H4
-##### H5
-###### H6
