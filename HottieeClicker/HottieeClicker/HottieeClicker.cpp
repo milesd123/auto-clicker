@@ -9,18 +9,18 @@
 
 using namespace std;
 
-// Some definitions
+
 bool normal_mode = false;
 bool randomize = true;
 
-// Sapphire lite randomization (Attempt)
+// Sapphire lite randomization
 random_device rd;
 mt19937 r(rd());
 
-// Self Destruct Things
+// Self Destruct 
 #define _SILENCE_EXPERIMENTAL_FILESYSTEM_DEPRECATION_WARNING
 
-// Colors stolen from dif
+// Colors 
 void setcolor(unsigned short color)
 {
     HANDLE hcon = GetStdHandle(STD_OUTPUT_HANDLE);
@@ -28,14 +28,14 @@ void setcolor(unsigned short color)
 }
 
 
-// call random function
+
 int rand(int left_cps);
 
 int main()
 {
 
 
-    // Menu - Layout copied from some random clicker
+    // Menu
     system("cls");
     SetConsoleTitleA("Hottie Clicker");
     setcolor(11);
@@ -105,7 +105,7 @@ int main()
     bool breakblocks = true;
     bool randomize = true;
 
-    // Sapphire lite randomization (Attempt)
+    // Sapphire lite randomization 
     random_device rd;
     mt19937 r(rd());
 
